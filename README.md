@@ -70,7 +70,7 @@ htmlElement.classList.add(<classe>);
 htmlContainer.appendChild(htmlElement)
 ```
 
-si è preferito "esternalizzare" l'operazione in una funzione, quanto più generalizzata possibile, che potesse essere richiamata all'occorrenza senza dover ripetere lo stesso codice più volte.
+si è preferito "esternalizzare" l'operazione in una funzione, quanto più generalizzata possibile, che potesse essere richiamata all'occorrenza senza fare un improprio riuso di codice.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
