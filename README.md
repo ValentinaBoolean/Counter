@@ -9,7 +9,7 @@
   <p align="center">
     Progetto per il corso base di Javascript di Start2Impact
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>View Project</strong></a>
+    <a href="https://valentinaboolean.github.io/Counter/"><strong>View Project</strong></a>
     <br />
   </p>
 </div>
@@ -84,6 +84,6 @@ Valentina Bulian
 
 [Project Repository](https://github.com/ValentinaBoolean/Counter)
 
-[Project Url]()
+[Project Url](https://valentinaboolean.github.io/Counter/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
