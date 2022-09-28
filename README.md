@@ -50,13 +50,13 @@ Per la realizzazione del progetto sono state impiegate le seguenti tecnologie:
 
 Il progetto è stato realizzato interamente con l'utilizzo di Javascript.
 
-Le uniche eccezioni sono gli stili CSS (style.css) e la pagina HTML (index.html) che contiene solo la struttura base per HEAD e BODY, nonchè le importazioni necessarie a far funzionare il progetto.
+Le uniche eccezioni sono gli stili CSS (style.css) e la pagina HTML (index.html) che contiene solo la struttura base per `HEAD` e `BODY`, nonchè le importazioni necessarie a far funzionare il progetto.
 
-Da notare che il javascript è stato importato nell'HEAD della pagina, e non prima della chiusura del tag **BODY** come di consueto, con l'aggiunta dell'attributo `defer`, pratica che permette di caricare il javascript immediatamente, ma differire la sua esecuzione una volta pronto il DOM.
+Da notare che il javascript è stato importato nell'`HEAD` della pagina, e non prima della chiusura del tag `BODY` come di consueto, con l'aggiunta dell'attributo `defer`, pratica che permette di caricare il javascript immediatamente, ma differire la sua esecuzione una volta pronto il DOM.
 
 Nello specifico, nel file counter.js è possibile osservare la seguente struttura:
 
-* All'inizio del file è possibile trovare le dichiarazioni ed inizializzazioni delle variabili `counterValue` (utilizzata per tenere traccia del contatore) e `body` (utilizzata per avere un riferimento al tag **BODY** nella pagina HTML)
+* All'inizio del file è possibile trovare le dichiarazioni ed inizializzazioni delle variabili `counterValue` (utilizzata per tenere traccia del contatore) e `body` (utilizzata per avere un riferimento al tag `BODY` nella pagina HTML)
 * Subito dopo sono presenti i richiami alle funzioni `createCounter()` e `createSign()`.
 * La prima funzione (`createCounter()`) ha lo scopo di creare e dare funzionalità a tutti gli elementi che compongono il contatore effettivo. 
 * La seconda funzione (`createSign()`) ha invece lo scopo di creare gli elementi che compongono la firma.
