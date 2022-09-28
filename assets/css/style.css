@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100%;
+    background-color: #050819;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    font-weight: 600;
+    font-size: 20px; 
+    border: none;
+    border-radius: 10px;
+}
+
+img {
+    height: 20px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400PX;
+    width: 400px;
+    background-color: #121526;
+    border-radius: 200px;
+}
+
+.sign-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sign-text{
+    color: white;
+    font-weight: 300;
+}
+
+.counter-text {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 100px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-increase-decrease {
+    background-color: #f49819;
+    color: rgb(26, 27, 70);
+}
+
+.btn-increase-decrease:hover{
+    background-color: #fdc73d;
+    color: rgb(26, 27, 70);
+}
+
+.btn-reset {
+    background-color: rgb(206, 15, 15);
+    transition: transform .2s ease-in-out;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-reset:hover {
+    background-color:  rgb(243, 32, 32); 
+    transform: rotate(50deg);
+}
